@@ -1,0 +1,148 @@
+html,body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+
+}
+
+
+body{
+    background-color:#edf4f8;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* ---------------- header ---------------- */
+
+.site-header{
+    background-color: #073452;
+    height: 64px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    margin: 0 50px;
+
+}
+.menu__list{
+    display: flex;
+    
+}
+
+.menu__list li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.menu__list li{
+    margin-left: 30px;
+}
+.menu__list a{
+    color: white;
+    font-family: "HP Simplified", sans-serif;
+    font-size: 18px;
+    
+}
+
+/* ---------------- main ----------------*/
+
+.top{
+    background-image: url(image/fon1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover; /* Масштабируем фон */
+    
+}
+.top-bg{
+   background: #073452;
+   opacity: 0.92; 
+   height: 500px;
+
+}
+
+.top__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_info {
+    max-width: 330px;
+    margin-right: 40px;
+
+}
+.title{
+    color:#fff;
+    font-size: 44px;
+    font-weight: 400px;
+    line-height: 55px;
+    letter-spacing: 3px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0px;
+
+}
+.tagline{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.top_image {
+    padding-top: 40px;
+}
+
+.top-image_box {
+    margin-left: 100px;
+}
+
+/* ------- мы помогли ------ */
+.service{
+  
+}
+
+.service-hd{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-left: 60px;
+   
+}
+.service__inner li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #8dbdd8;
+    position: relative;
+    padding-left: 70px;
+    line-height: 47px;
+}
+.service__inner li{
+    list-style-type: none;
+    
+}
+
+.service__inner li::before{
+    content: "";
+    background-image: url(image/service-icon.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-65%);
+}
+/*
+.service-mar{
+    line-height: 47px;
+    padding-left: 24px;
+}
